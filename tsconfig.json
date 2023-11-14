@@ -1,0 +1,27 @@
+{
+	"exclude": ["node_modules"],
+	"include": ["src/**/*.ts"],
+	"compilerOptions": {
+		"allowImportingTsExtensions": true,
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"composite": true,
+		"downlevelIteration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true,
+		"lib": ["ESNext"],
+		"module": "esnext",
+		"moduleDetection": "force",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "esnext",
+		"types": ["bun-types"]
+	}
+}
